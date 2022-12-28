@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image:url(./images/bg-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:  auto ;
+    padding: 10px 50px;
+}
+.logo{
+    margin:30px 0 60px auto ;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.text{
+    color: white;
+    padding:  50px;
+    position: relative;
+    bottom: 120px;  
+}
+.build{
+    padding:0 100px 20px 0;
+}
+.btn{
+    text-align: center;
+    width: 150px;
+    background-color: hsl(300, 69%, 71%);
+    padding: 10px;
+    border-radius: 30px;
+    margin-top:20px ;
+    cursor: pointer;
+
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
